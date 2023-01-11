@@ -51,7 +51,7 @@ function v3_translate_text_with_glossary(
     $glossaryConfig->setGlossary($glossaryPath);
 
     // Optional. Can be "text/plain" or "text/html".
-    $mimeType = 'text/plain';
+    $mimeType = 'text/html';
 
     try {
         $response = $translationServiceClient->translateText(
